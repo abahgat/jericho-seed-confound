@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: >-
+  Fixed-seed RNG confound in Jericho LLM-agent evaluations —
+  reproduction artifacts
+message: >-
+  If you use these artifacts, please cite the methods note. Cite this
+  repository's archived release when you need to refer to the data itself.
+type: software
+authors:
+  - family-names: Bahgat Shehata
+    given-names: Alessandro
+    orcid: https://orcid.org/0009-0008-5353-9081
+repository-code: https://github.com/abahgat/jericho-seed-confound
+abstract: >-
+  Model-free demonstrations and committed artifacts for a methods note reporting
+  that Jericho's environment constructor, called without an explicit seed,
+  silently binds each game's fixed walkthrough seed. Runs presented as
+  independent samples then share one frozen RNG realization. Includes the
+  seed-axis and path-axis demonstrations, their machine-readable results for two
+  engine versions, tests that re-derive every tabled claim from those results
+  without the engine, and the field-level screen of public FrotzEnv call sites.
+keywords:
+  - jericho
+  - interactive fiction
+  - reproducibility
+  - benchmark evaluation
+  - random seeds
+  - LLM agents
+# Matches the Zenodo deposit: the data is the citable substance. Code is MIT.
+license: CC-BY-4.0
+# Zenodo mints the DOI from the GitHub release, so this version must equal the
+# release tag; a mismatch lands on the archived record.
+version: v1.0.0
+date-released: '2026-08-14'

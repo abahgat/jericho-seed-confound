@@ -1,0 +1,33 @@
+{
+  "upload_type": "software",
+  "title": "Fixed-seed RNG confound in Jericho LLM-agent evaluations \u2014 reproduction artifacts",
+  "description": "Model-free demonstrations and committed artifacts for a methods note reporting that Jericho's environment constructor, called without an explicit seed, silently binds each game's fixed walkthrough seed. Runs presented as independent samples then share one frozen RNG realization. Includes the seed-axis and path-axis demonstrations, their machine-readable results for two engine versions, tests that re-derive every tabled claim from those results without the engine, and the field-level screen of public FrotzEnv call sites.",
+  "creators": [
+    {
+      "name": "Bahgat Shehata, Alessandro",
+      "orcid": "0009-0008-5353-9081"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "jericho",
+    "interactive fiction",
+    "reproducibility",
+    "benchmark evaluation",
+    "random seeds",
+    "LLM agents"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/microsoft/jericho/issues/84",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/microsoft/jericho/pull/88",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "base_action_list": [
+    "N",
+    "N",
+    "U",
+    "Get egg",
+    "D",
+    "S",
+    "E",
+    "Open window",
+    "W",
+    "Open sack",
+    "Get garlic",
+    "W",
+    "Get lamp",
+    "E",
+    "U",
+    "Light lamp",
+    "Get rope",
+    "Get knife",
+    "D",
+    "Douse lamp",
+    "W",
+    "Get sword",
+    "Move rug",
+    "Open trapdoor",
+    "D",
+    "Light lamp",
+    "N",
+    "Kill troll with sword"
+  ],
+  "conditions": [
+    {
+      "condition": "baseline",
+      "fight_obs": "The fatal blow strikes the troll square in the heart:  He dies.\nAlmost as soon as the troll breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.\nYour sword is no longer glowing.",
+      "matches_baseline": true,
+      "n_actions": 28,
+      "resolved_seed": 12,
+      "score": 40,
+      "state_hash": "0bfe6e3f8f83c57419b8b938b9725fef"
+    },
+    {
+      "condition": "quiet padding x1",
+      "fight_obs": "The fatal blow strikes the troll square in the heart:  He dies.\nAlmost as soon as the troll breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.\nYour sword is no longer glowing.",
+      "matches_baseline": true,
+      "n_actions": 29,
+      "resolved_seed": 12,
+      "score": 40,
+      "state_hash": "0bfe6e3f8f83c57419b8b938b9725fef"
+    },
+    {
+      "condition": "quiet padding x3",
+      "fight_obs": "The fatal blow strikes the troll square in the heart:  He dies.\nAlmost as soon as the troll breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.\nYour sword is no longer glowing.",
+      "matches_baseline": true,
+      "n_actions": 31,
+      "resolved_seed": 12,
+      "score": 40,
+      "state_hash": "0bfe6e3f8f83c57419b8b938b9725fef"
+    },
+    {
+      "condition": "rng padding x1",
+      "fight_obs": "A good stroke, but it's too slow; the troll dodges.\nThe flat of the troll's axe hits you delicately on the head, knocking you out.\nConquering his fears, the troll puts you to death.\nIt appears that that last blow was too much for you. I'm afraid you are dead.\n \n   ****  You have died  **** \n\nNow, let's take a look here... Well, you probably deserve another chance. I can't quite fix you up completely, but you can't have everything.\n\nForest\nThis is a forest, with trees in all directions. To the east, there appears to be sunlight.",
+      "matches_baseline": false,
+      "n_actions": 29,
+      "resolved_seed": 12,
+      "score": 30,
+      "state_hash": "3da403e1eeaa7412a8d3de54c3699b05"
+    }
+  ],
+  "jericho_version": "3.3.1",
+  "kill_action": "Kill troll with sword",
+  "pad_action": "look",
+  "quiet_insert_index": 6,
+  "rng_insert_index": 27,
+  "rom": "zork1.z5",
+  "rom_sha256": "0ae5ac229e79094ff368b6669356444af0f35e21d862a1baaa546989085c15fd"
+}

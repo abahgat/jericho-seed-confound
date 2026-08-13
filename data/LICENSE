@@ -1,0 +1,14 @@
+The contents of this directory — the machine-readable results in
+seed_confound_demo_jericho-*.json, seed_path_demo_jericho-*.json and
+audit_frotzenv_seeding_*.json — are released under the Creative Commons
+Attribution 4.0 International licence
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+The audit artifact quotes single lines of third-party source code as evidence for
+each verdict, with a commit-pinned permalink to the original. Those excerpts
+remain under their own projects' licences; the CC BY 4.0 grant above covers the
+classification and the compilation, not the quoted lines.
+
+The code that generates and validates them is MIT licensed; see ../LICENSE.
+
+Attribution: Alessandro Bahgat Shehata, ORCID 0009-0008-5353-9081.

@@ -1,0 +1,327 @@
+{
+  "action_list": [
+    "N",
+    "N",
+    "U",
+    "Get egg",
+    "D",
+    "S",
+    "E",
+    "Open window",
+    "W",
+    "Open sack",
+    "Get garlic",
+    "W",
+    "Get lamp",
+    "E",
+    "U",
+    "Light lamp",
+    "Get rope",
+    "Get knife",
+    "D",
+    "Douse lamp",
+    "W",
+    "Get sword",
+    "Move rug",
+    "Open trapdoor",
+    "D",
+    "Light lamp",
+    "N",
+    "Kill troll with sword",
+    "drop egg",
+    "E",
+    "E",
+    "Se",
+    "E",
+    "Tie rope to railing",
+    "D",
+    "Douse lamp",
+    "Get torch",
+    "D",
+    "S",
+    "Drop sword"
+  ],
+  "actions": 40,
+  "conditions": [
+    {
+      "condition": "default (unseeded)",
+      "deaths": 0,
+      "distinct_scores": 1,
+      "distinct_world_states": 1,
+      "n": 12,
+      "resolved_seeds": [
+        12
+      ],
+      "runs": [
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        }
+      ],
+      "score_max": 59,
+      "score_mean": 59,
+      "score_min": 59,
+      "score_sd": 0.0
+    },
+    {
+      "condition": "explicit seed=0",
+      "deaths": 0,
+      "distinct_scores": 1,
+      "distinct_world_states": 1,
+      "n": 12,
+      "resolved_seeds": [
+        12
+      ],
+      "runs": [
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        },
+        {
+          "died": false,
+          "resolved_seed": 12,
+          "score": 59,
+          "state_hash": "58e733a431a9ad27c621143dbbe57887"
+        }
+      ],
+      "score_max": 59,
+      "score_mean": 59,
+      "score_min": 59,
+      "score_sd": 0.0
+    },
+    {
+      "condition": "randomized positive",
+      "deaths": 9,
+      "distinct_scores": 2,
+      "distinct_world_states": 11,
+      "n": 12,
+      "resolved_seeds": [
+        47536117,
+        400513420,
+        809898212,
+        937858859,
+        988104074,
+        991003636,
+        1190136756,
+        1426703850,
+        1603651815,
+        1775551026,
+        2068460286,
+        2126310503
+      ],
+      "runs": [
+        {
+          "died": false,
+          "resolved_seed": 2068460286,
+          "score": 59,
+          "state_hash": "a454373b9a39d042abfbc80252a7b5d1"
+        },
+        {
+          "died": true,
+          "resolved_seed": 988104074,
+          "score": 30,
+          "state_hash": "4058e0019f003f1342c0a3e95316deba"
+        },
+        {
+          "died": true,
+          "resolved_seed": 2126310503,
+          "score": 30,
+          "state_hash": "5bc0fcfcd10775ebe322c2891d46156c"
+        },
+        {
+          "died": true,
+          "resolved_seed": 1775551026,
+          "score": 30,
+          "state_hash": "caba8897db5124a5c488a29252f1a605"
+        },
+        {
+          "died": true,
+          "resolved_seed": 1190136756,
+          "score": 30,
+          "state_hash": "971882d4a10989c2616fe8699c789894"
+        },
+        {
+          "died": false,
+          "resolved_seed": 47536117,
+          "score": 59,
+          "state_hash": "09023cdf2fab2940e7f240c8208e9071"
+        },
+        {
+          "died": true,
+          "resolved_seed": 1426703850,
+          "score": 30,
+          "state_hash": "562c04142d92d638b3e8853e28a7efe9"
+        },
+        {
+          "died": false,
+          "resolved_seed": 809898212,
+          "score": 59,
+          "state_hash": "a454373b9a39d042abfbc80252a7b5d1"
+        },
+        {
+          "died": true,
+          "resolved_seed": 937858859,
+          "score": 30,
+          "state_hash": "8db9b72a8f280f651a3ea8d10aaea156"
+        },
+        {
+          "died": true,
+          "resolved_seed": 400513420,
+          "score": 30,
+          "state_hash": "362598a17be33abd554cb535b00d01f7"
+        },
+        {
+          "died": true,
+          "resolved_seed": 1603651815,
+          "score": 30,
+          "state_hash": "53299ef216ddc98a3c89c6e9220836f3"
+        },
+        {
+          "died": true,
+          "resolved_seed": 991003636,
+          "score": 30,
+          "state_hash": "5c0e4404f8d0e32f4ec025c2de33ea73"
+        }
+      ],
+      "score_max": 59,
+      "score_mean": 37.25,
+      "score_min": 30,
+      "score_sd": 12.55736835487436
+    }
+  ],
+  "jericho_version": "3.3.1",
+  "meta_seed": 20260724,
+  "rom": "zork1.z5",
+  "rom_sha256": "0ae5ac229e79094ff368b6669356444af0f35e21d862a1baaa546989085c15fd",
+  "runs_per_condition": 12
+}

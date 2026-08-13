@@ -1,0 +1,24 @@
+# Needed only to REGENERATE the artifacts in data/. To verify them, use
+# requirements-test.txt — no engine required.
+#
+# Pinned for reproducibility. The committed artifacts were generated against
+# jericho 3.2.0 and 3.3.1; their agreement in every field but the version string
+# is the note's version-invariance evidence.
+
+# Jericho is a C extension wrapping Frotz. Pinned to 3.2.0 because it ships a
+# prebuilt wheel for CPython 3.12; newer releases (3.3.x) do NOT, so pip falls
+# back to building from source and fails on any box without make/gcc. On aarch64
+# the prebuilt lib does not load at all and a source build is required either
+# way: `pip install --no-binary jericho jericho==3.2.0`.
+#
+# Regenerating the 3.3.1 artifact needs a source build of that version; the
+# version invariance test skips rather than fails if only one is present.
+jericho==3.2.0
+
+# spaCy (a transitive jericho dep) imports `click` directly via its CLI module,
+# but its only would-be provider, typer >=0.13, dropped the hard click dependency
+# — so nothing pulls it in and `import spacy` (hence the whole game) breaks. Pin
+# it explicitly until that chain is fixed upstream.
+click==8.4.1
+
+pytest==9.1.0

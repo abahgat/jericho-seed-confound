@@ -1,0 +1,16 @@
+# The Zork I game file is proprietary and must never be committed here — the
+# whole point of rom.py is that this repository verifies the ROM instead of
+# redistributing it. Ignored by name so a local working copy is frictionless.
+zork1.z5
+*.z3
+*.z5
+*.z8
+*.zblorb
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local agent config; not part of the published artifact.
+.claude/

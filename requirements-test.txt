@@ -1,0 +1,11 @@
+# Everything needed to verify this repository's claims.
+#
+# The game engine (jericho) is intentionally absent: no test here boots the
+# engine or needs a ROM. The artifacts in data/ are committed, and the tests
+# re-derive every tabled number from them, so a reader can check the paper
+# without installing a C extension or sourcing a proprietary game file.
+#
+#   pip install -r requirements-test.txt && pytest -q
+#
+# To regenerate the artifacts instead of checking them, use requirements.txt.
+pytest==9.1.0
