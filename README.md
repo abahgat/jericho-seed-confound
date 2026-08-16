@@ -144,8 +144,9 @@ behind each verdict is unit-tested in `test_audit_classifier.py`.
 ## Upstream
 
 The behaviour was reported as [microsoft/jericho#84][issue] and confirmed by a
-maintainer; an upstream fix targeting a major release is tracked in
-[microsoft/jericho#88][pr].
+maintainer; the fix is [microsoft/jericho#88][pr], merged 2026-08-14 for the
+v4.0 major release. Every release through 3.3.1 carries the silent default,
+including the 3.2.0 this artifact pins.
 
 [issue]: https://github.com/microsoft/jericho/issues/84
 [pr]: https://github.com/microsoft/jericho/pull/88

@@ -77,7 +77,7 @@ def test_committed_run_credits_randomization(artifact):
 # --------------------------------------------------------------------------
 
 def test_post_fix_run_reports_the_confound_absent():
-    """The branch that matters once microsoft/jericho#88 lands.
+    """The branch that matters on an engine carrying microsoft/jericho#88.
 
     Numbers modelled on a real run against a patched build: the unseeded default
     draws a fresh seed per episode (recorded as -1) and spreads across states, so
