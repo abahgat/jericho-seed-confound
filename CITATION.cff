@@ -31,4 +31,4 @@ license: CC-BY-4.0
 # Zenodo mints the DOI from the GitHub release, so this version must equal the
 # release tag; a mismatch lands on the archived record.
 version: v1.0.0
-date-released: '2026-08-14'
+date-released: '2026-09-17'
